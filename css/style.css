@@ -10,13 +10,21 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .search-left {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .search-input {
 border-left: none;
 border-right: none;
 }
+.search-input:focus {
+    outline: none;
+    }
+    
