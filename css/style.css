@@ -1,0 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.search-box {
+    display: flex;
+    flex-direction: row;
+}
