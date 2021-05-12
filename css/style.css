@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
    align-items: center;
+   justify-content: center;
+   height: 100vh;
 }
 .search-heading {
 
@@ -14,13 +16,14 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 1px solid gray;
     opacity: 0.6;
     padding: 10px;
 }
 .search-box:hover {
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.06);
+    /* box-shadow: 0 1px 6px rgba(32,33,36,.28) */
 }
 .search-right {
     
