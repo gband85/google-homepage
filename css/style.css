@@ -15,7 +15,8 @@
 .search-box {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    margin-top: 40px;
     border-radius: 25px;
     border: 1px solid gray;
     opacity: 0.6;
@@ -26,7 +27,7 @@
     /* box-shadow: 0 1px 6px rgba(32,33,36,.28) */
 }
 .search-right {
-    
+    cursor: pointer;
 }
 .search-left {
     
@@ -38,4 +39,14 @@ width: 400px;
 }
 .search-input:focus {
     outline: none;
+}
+.search-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.search-btn:hover {
+    border: 1px solid lightgray;
 }
