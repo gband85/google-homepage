@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .container {
     display: flex;
@@ -49,4 +50,26 @@ width: 400px;
 }
 .search-btn:hover {
     border: 1px solid lightgray;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul {
+    list-style: none;
+    margin: 20px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar .left {
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover {
+text-decoration: underline;
 }
