@@ -6,11 +6,7 @@
 .container {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   /* height: 100vh; */
       min-height: 100%;
-      /* flex-grow: 1; */
 }
 
 body {
@@ -85,5 +81,5 @@ text-decoration: underline;
     flex-shrink: 0;
 }
 .content {
-    flex-grow: 1;
+
 }
