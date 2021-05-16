@@ -38,7 +38,7 @@ body {
 }
 .search-input {
 border: none;
-width: 400px;
+width: 100%;
 }
 .search-input:focus {
     outline: none;
