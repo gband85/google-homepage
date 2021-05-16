@@ -81,5 +81,7 @@ text-decoration: underline;
     flex-shrink: 0;
 }
 .content {
-
+display: flex;
+align-items: center;
+flex-direction: column;
 }
