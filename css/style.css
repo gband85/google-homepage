@@ -87,3 +87,6 @@ height: 86vh;
 ul {
     display: flex;
 }
+a {
+    color: black;
+}
