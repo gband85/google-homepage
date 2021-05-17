@@ -5,6 +5,9 @@
 }
 html, body {
     height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: gray;
 }
 .container {
     display: flex;
@@ -19,16 +22,13 @@ html, body {
     margin-top: 40px;
     border-radius: 25px;
     border: 1px solid gray;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     padding: 10px;
     width: 500px;
 }
 .search-box:hover {
     box-shadow: 0 0 15px 10px rgba(0,0,0,0.06);
     /* box-shadow: 0 1px 6px rgba(32,33,36,.28) */
-}
-.search-right {
-    cursor: pointer;
 }
 .search-left {
     
@@ -47,6 +47,7 @@ width: 100%;
     background-color: whitesmoke;
     border: 1px solid white;
     cursor: pointer;
+    font-size: 1rem;
 }
 .search-btn:hover {
     border: 1px solid lightgray;
@@ -55,6 +56,7 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     flex-shrink: 0;
+    font-size: 1rem;
 }
 .navbar ul {
     list-style: none;
@@ -88,5 +90,5 @@ ul {
     display: flex;
 }
 a {
-    color: black;
+    color: gray;
 }
