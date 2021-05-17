@@ -84,3 +84,6 @@ flex-direction: column;
 flex: 1;
 height: 86vh;
 }
+ul {
+    display: flex;
+}
