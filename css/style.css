@@ -88,7 +88,11 @@ height: 86vh;
 }
 ul {
     display: flex;
+    align-items: center;
 }
 a {
     color: gray;
+}
+.profile {
+    border-radius: 50%;
 }
